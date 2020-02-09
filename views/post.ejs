@@ -1,6 +1,11 @@
 <%-include("partials/header")-%>
-
-<h1><%=nn%></h1>
-<p><%=pp%></p>
+<%var lis=pp.split("<br>");%>
+<img src=<%=ii%> alt="" class="postimage">
+<h1 style="font-size: 3em;"><%=nn%></h1>
+<p style="font-size: 1.3em;"><%=lis[0]%></p>
+<%for(var i=1;i<lis.length;i++){%>
+    <%if(lis[i].length!=2){%>
+    <p style="font-size: 1.3em;"><span class="tab"></span><%=lis[i]%></p>
+    <%}}%>
 
 <%-include("partials/footer")-%>

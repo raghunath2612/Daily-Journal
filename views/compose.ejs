@@ -3,11 +3,16 @@
 <form  action="/compose" method="post">
     <div class="form-group">
     <label for="num">Title</label>
-    <input type="text" class="form-control" name="num" autocomplete="off">
+    <input type="text" class="form-control" name="num" autocomplete="off" required>
     </div>
     <div class="form-group">
     <label for="post">Post</label>
-    <input type="textarea" class="form-control" name="post" autocomplete="off">
+    <textarea class="form-control" rows="3" name="post" autocomplete="off" required></textarea>
+    <!-- <input type="textarea" rows=5 class="form-control" name="post" autocomplete="off" required> -->
+    </div>
+    <div class="form-group">
+    <label for="post">Image Url</label>
+    <input type="text" class="form-control" name="imgu" autocomplete="off" required>
     </div>
     <div class="form-group">
     <button class="btn btn-primary">Publish</button>
