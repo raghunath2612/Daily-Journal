@@ -1,6 +1,6 @@
 Go through the below link to visualise the output
 https://rocky-reaches-13450.herokuapp.com/
-To clone the code to your desktop use the following commands in your terminal:
+To clone the code to your desktop use the following commands in your terminal:(*note :NPM should be installed in your computer)
 git clone https://github.com/raghunath2612/Daily-Journal
 cd Daily-Journal
 npm i
